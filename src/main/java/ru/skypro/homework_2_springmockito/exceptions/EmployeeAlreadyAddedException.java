@@ -1,6 +1,5 @@
 package ru.skypro.homework_2_springmockito.exceptions;
 
-
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import ru.skypro.homework_2_springmockito.model.Employee;

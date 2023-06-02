@@ -1,6 +1,5 @@
 package ru.skypro.homework_2_springmockito.model;
 
-
 import java.util.Objects;
 import java.util.Random;
 

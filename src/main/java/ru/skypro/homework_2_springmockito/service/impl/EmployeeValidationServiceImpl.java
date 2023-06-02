@@ -1,6 +1,5 @@
 package ru.skypro.homework_2_springmockito.service.impl;
 
-
 import org.springframework.stereotype.Service;
 import ru.skypro.homework_2_springmockito.exceptions.InvalidEmployeeDataException;
 import ru.skypro.homework_2_springmockito.service.EmployeeValidationService;
@@ -15,6 +14,7 @@ public class EmployeeValidationServiceImpl implements EmployeeValidationService 
         validateName(firstName);
         validateName(lastName);
     }
+
     private void validateName(String name) {
         if (isBlank(name) || !isAlpha(name)) {
             throw new InvalidEmployeeDataException("Некорректное значение имени։ " + name);

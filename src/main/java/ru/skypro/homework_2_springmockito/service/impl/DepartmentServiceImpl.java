@@ -8,9 +8,6 @@ import ru.skypro.homework_2_springmockito.service.DepartmentService;
 import ru.skypro.homework_2_springmockito.service.EmployeeService;
 
 import java.util.*;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
-
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingInt;

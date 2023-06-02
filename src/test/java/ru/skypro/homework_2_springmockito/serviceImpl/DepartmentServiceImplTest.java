@@ -15,7 +15,6 @@ import static java.util.Collections.*;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 import static ru.skypro.homework_2_springmockito.serviceImpl.EmployeeServiceConstants.*;
-
 @ExtendWith(MockitoExtension.class)
 public class DepartmentServiceImplTest {
     @Mock
